@@ -1,0 +1,4 @@
+/* note to reviewer, I think generally it's better to use a link tag to a
+cdn for font imports (performance and SEO wins?). there is a requirement that i use CSS imports on this project.
+I guess this is because we want to enourage students to modularize their CSS? I'm probably missing the idea behind the import requirement (:. */
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Lato:wght@900&display=swap");
