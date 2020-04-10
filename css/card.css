@@ -2,7 +2,54 @@
 	border: solid 3px black;
 	height: 400px;
 	width: 375px;
-	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+	background-image: url(/images/hairphotosample.jpg);
+	background-position: center;
+}
+.card-header {
+	padding-top: 16px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+h2 {
+	color: #fff;
+	font-family: "Gotu", sans-serif;
+	font-size: 2.5rem;
+}
+.fa-heart {
+	font-size: 2rem;
+	color: #fff;
+	margin-right: 16px;
+}
+.card-footer {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	padding-bottom: 16px;
+}
+.read-btn {
+	width: 120px;
+	height: 38px;
+	margin-right: 16px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #fff;
+	text-decoration: none;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	font-size: 1.1em;
+}
+.read-btn:hover {
+	background-color: rgba(0, 0, 0, 0.522);
+	border-radius: 2px;
 }
 
 @media (min-width: 1000px) {
