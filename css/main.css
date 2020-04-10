@@ -20,11 +20,13 @@ body {
 
 h1 {
 	font-family: "Lato", sans-serif;
+	font-size: 2.5rem;
 }
 .main-header {
 	grid-area: header;
+	text-align: center;
 	display: none;
-	border: 1px solid blueviolet;
+	border-bottom: 3px solid #ff4b4b;
 }
 .content {
 	grid-area: content;
@@ -37,6 +39,7 @@ h1 {
 .main-nav {
 	grid-area: nav;
 	height: 49px;
+	border-bottom: 3px solid #ff4b4b;
 }
 
 .hair {
@@ -46,8 +49,9 @@ h1 {
 
 .main-footer {
 	grid-area: footer;
-	border: 1px solid blueviolet;
 	height: 50px;
+	padding-right: 16px;
+	text-align: right;
 }
 
 /* media queries */
@@ -63,11 +67,12 @@ h1 {
 	.main-header {
 		height: 100px;
 		display: block;
-		border: 2px solid blue;
 	}
+
 	.main-nav {
 		grid-area: nav;
 		height: 700px;
+		border-bottom: none;
 	}
 }
 
@@ -80,11 +85,7 @@ h1 {
 			"nav  content content"
 			"footer footer footer";
 	}
-	.main-header {
-		border: 2px solid violet;
-	}
-	.main-nav {
-	}
+
 	.content {
 		flex-direction: row;
 		flex-wrap: wrap;
